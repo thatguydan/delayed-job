@@ -1,6 +1,6 @@
 {
   "name": "delayed-job",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Redis backed Node.js implementation of delayed job",
   "main": "index.js",
   "scripts": {
