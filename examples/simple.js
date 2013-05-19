@@ -1,6 +1,11 @@
 var Scheduler = require('../index.js');
 
-var scheduler = Scheduler.createScheduler();
+var scheduler = Scheduler.createScheduler({
+  backend: {
+    name: 'redis',
+    jobHoldingBay: 'myUniqueListKey'
+  }
+});
 
 scheduler.on('job',function(job) {
   console.log('Received job',job);
