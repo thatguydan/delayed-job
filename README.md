@@ -12,7 +12,7 @@ npm install delayed-job
 ```
 var Scheduler = require('delayed-job');
 
-var scheduler = Scheduler.createScheduler({
+var scheduler = Scheduler.createSchedule({
   backend: {
     name: 'redis',
     jobHoldingBay: 'myUniqueListKey'
