@@ -4,7 +4,9 @@ delayed-job is a horizontally scalable implementation of Ruby's delayed_job. Usi
 
 # Installation
 
-```npm install delayed-job```
+```
+npm install delayed-job
+```
 
 # Usage
 ```
