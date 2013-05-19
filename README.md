@@ -10,7 +10,7 @@ npm install delayed-job
 
 # Usage
 ```
-var Scheduler = require('../index.js');
+var Scheduler = require('delayed-job');
 
 var scheduler = Scheduler.createScheduler({
   backend: {
